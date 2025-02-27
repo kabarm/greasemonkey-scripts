@@ -101,7 +101,7 @@
 
               // Wait a little before processing the next dropdown
               // This is set to 5 seconds - you can speed this up even faster if you prefer
-              await new Promise(resolve => setTimeout(resolve, 5000));
+              await new Promise(resolve => setTimeout(resolve, 500));
           }
 
           console.log('All dropdowns processed');
